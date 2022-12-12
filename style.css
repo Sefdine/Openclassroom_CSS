@@ -1,0 +1,30 @@
+body {
+    color: #fff;
+    font-family: Futura;
+    padding: 20px;
+}
+
+h1 {
+    background-color: blue;
+}
+
+h3 {
+    background-color: rgb(39, 204, 61);
+}
+
+#one {
+    background-color: rgb(202, 189, 2);
+}
+
+ul {
+    background-color: rgb(43, 230, 214);
+}
+
+#two {
+    background-color: rgb(250, 142, 18);
+}
+
+a {
+    background-color: rgb(18, 250, 18);
+    color: #000;
+}
