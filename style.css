@@ -2,6 +2,10 @@ h1 {
     background-color: red;
 }
 
+h2 {
+    background-color: black;
+}
+
 p {
     color: rgb(255, 14, 14);
 }
