@@ -5,22 +5,8 @@ body {
 }
 
 p {
-    display: inline-block;
-    color: #000;
-    padding: 10px;
-}
-
-#one {
-    border-width: thick;
-    border-style: inset;
-    border-color: rgb(37, 14, 165);
-}
-
-#two {
-    border: 5px outset rgba(170, 126, 90, 0.849);
-}
-
-#three {
-    border: 1.3em ridge blue;
-    border-radius: 10px;
+    border: 10px solid #000;
+    /* padding: T R B L;*/
+    padding: 1.2em 0.8em 1.2em 1.3em;
+    color: black;
 }
