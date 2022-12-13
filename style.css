@@ -4,27 +4,23 @@ body {
     padding: 20px;
 }
 
-h1 {
-    background-color: blue;
-}
-
-h3 {
-    background-color: rgb(39, 204, 61);
+p {
+    display: inline-block;
+    color: #000;
+    padding: 10px;
 }
 
 #one {
-    background-color: rgb(202, 189, 2);
-}
-
-ul {
-    background-color: rgb(43, 230, 214);
+    border-width: thick;
+    border-style: inset;
+    border-color: rgb(37, 14, 165);
 }
 
 #two {
-    background-color: rgb(250, 142, 18);
+    border: 5px outset rgba(170, 126, 90, 0.849);
 }
 
-a {
-    background-color: rgb(18, 250, 18);
-    color: #000;
+#three {
+    border: 1.3em ridge blue;
+    border-radius: 10px;
 }
