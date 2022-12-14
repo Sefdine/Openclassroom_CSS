@@ -33,52 +33,53 @@ nav {
 }
 
 .container {
-    width: 80%;
-    margin: 50px auto;
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 3em 4.9em 2em;
+    grid-auto-rows: 5em;
+    grid-gap: 10px 5px;
 }
 
-h1 {
+div {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4em;
+    color: white;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.squares {
+.container div:nth-child(1), div:nth-child(6){
     background-color: blue;
-    width: max-content;
-    margin: 30px auto;
-    padding: 10px 10px;
 }
 
-#one {
-    border: 10px double yellow;
-    width: max-content;
-    padding: 50px;
+.container div:nth-child(2), div:nth-child(7) {
+    background-color: yellow;
+}
+
+.container div:nth-child(3), div:nth-child(8) {
     background-color: salmon;
-    margin: 5px 40px;
-    display: inline-block;
 }
 
-#two {
-    border: 10px double yellow;
-    width: max-content;
-    padding: 50px;
-    background-color: rgb(243, 39, 175);
-    margin: 5px 40px;
-    display: inline-block;
+.container div:nth-child(4) {
+    background-color: blueviolet;
 }
 
-#three {
-    border: 10px double yellow;
-    width: max-content;
-    padding: 50px;
-    background-color: rgb(17, 179, 179);
-    margin: 5px 40px;
-    display: inline-block;
+.container div:nth-child(5) {
+    background-color: green;
 }
 
-h2 {
-    width: 500px;
-    padding: 5px;
-    border: 2px dotted blue;
-    box-sizing: border-box;
+.container div:nth-child(9), div:nth-child(11) {
+    background-color: rgb(148, 11, 11);
+}
+
+.container div:nth-child(10), :nth-child(12) {
+    background-color: black;
+}
+
+.container div:nth-child(13), div:nth-child(15) {
+    background-color: yellow;
+}
+
+.container div:nth-child(14) {
+    background-color: aquamarine;
 }
