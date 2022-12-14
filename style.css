@@ -1,18 +1,77 @@
 body {
-    color: #fff;
-    font-family: Futura;
-    padding: 20px;
+    color: rgb(92, 99, 99);
 }
 
-p {
-    border: 10px solid #000;
-    /* padding: T R B L;*/
-    padding: 1.2em 0.8em 1.2em 1.3em;
-    color: red;
-    min-width: 30px;
-    max-width: 50%;
+nav {
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#menu {
+    display: block;
+    width: 40%;
+    margin: 0px auto;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu a:hover {
+    color: rgb(82, 66, 66);
+}
+
+#menu li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.squares {
+    background-color: blue;
+    width: max-content;
+    margin: 30px auto;
+    padding: 10px 10px;
+}
+
+#one {
+    border: 10px double yellow;
+    width: max-content;
+    padding: 50px;
+    background-color: azure;
+    margin: 5px 40px;
+    display: inline-block;
 }
 
 #two {
-    margin: 150px 120px;
+    border: 10px double yellow;
+    width: max-content;
+    padding: 50px;
+    background-color: rgb(243, 39, 175);
+    margin: 5px 40px;
+    display: inline-block;
+}
+
+#three {
+    border: 10px double yellow;
+    width: max-content;
+    padding: 50px;
+    background-color: rgb(17, 179, 179);
+    margin: 5px 40px;
+    display: inline-block;
 }
