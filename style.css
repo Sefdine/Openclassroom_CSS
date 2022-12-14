@@ -37,6 +37,7 @@ nav {
     display: grid;
     grid-template: repeat(5, 3em) / repeat(3, 1fr);
     grid-gap: 10px 5px;
+    grid-auto-rows: 3em;
 }
 
 div {
@@ -80,4 +81,29 @@ div {
 
 .container div:nth-child(14) {
     background-color: aquamarine;
+}
+
+#one {
+    grid-column: 1 / 4;
+}
+
+#two {
+    grid-row: 2 / span 3;
+}
+
+#five {
+    grid-column: 2 / -1;
+}
+
+#ten {
+    grid-column: 3 / -1;
+    grid-row: 5 / span 2;
+}
+
+#eleven {
+    grid-column: 1 / span 2;
+}
+
+#fifteen {
+    grid-column: 1 / span 3;
 }
