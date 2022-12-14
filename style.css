@@ -35,9 +35,7 @@ nav {
 .container {
     margin-top: 3em;
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: 3em 4.9em 2em;
-    grid-auto-rows: 5em;
+    grid-template: repeat(5, 3em) / repeat(3, 1fr);
     grid-gap: 10px 5px;
 }
 
