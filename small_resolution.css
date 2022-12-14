@@ -1,0 +1,39 @@
+
+#menu {
+    display: block;
+    width: max-content;
+    margin: auto; 
+}
+
+#menu li {
+    display: block;
+}
+
+.container {
+    margin-top: 120px;
+    width: 100%;
+}
+
+h1 {
+    font-size: medium;
+}
+
+.squares {
+    width: max-content;
+    margin: auto;
+}
+
+#one {
+    display: block;
+    margin: 10px 5px;
+}
+
+#two {
+    display: block;
+    margin: 10px 5px;
+}
+
+#three {
+    display: block;
+    margin: 10px 5px;
+}
