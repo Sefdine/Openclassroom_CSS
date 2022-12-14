@@ -8,7 +8,13 @@ p {
     border: 10px solid #000;
     /* padding: T R B L;*/
     padding: 1.2em 0.8em 1.2em 1.3em;
-    color: black;
+    color: red;
+    min-width: 30px;
+    max-width: 50%;
+}
+
+#two {
+    margin: 150px 120px;
 }
 
 #two {
