@@ -53,7 +53,7 @@ h1 {
     border: 10px double yellow;
     width: max-content;
     padding: 50px;
-    background-color: azure;
+    background-color: salmon;
     margin: 5px 40px;
     display: inline-block;
 }
@@ -74,4 +74,11 @@ h1 {
     background-color: rgb(17, 179, 179);
     margin: 5px 40px;
     display: inline-block;
+}
+
+h2 {
+    width: 500px;
+    padding: 5px;
+    border: 2px dotted blue;
+    box-sizing: border-box;
 }
