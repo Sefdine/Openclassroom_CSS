@@ -35,76 +35,34 @@ nav {
 .container {
     margin-top: 3em;
     display: grid;
-    grid-template: repeat(5, 3em) / repeat(3, 1fr);
-    grid-gap: 10px 5px;
+    grid-template: repeat(3, 3em) / repeat(4, 1fr);
+    grid-template-areas: 
+        "h h h h"
+        'a a b b'
+        'f f f f'
+    ;
+    grid-gap: 10px;
     grid-auto-rows: 3em;
-}
-
-div {
-    font-family: Helvetica, sans-serif;
-    font-size: 1.4em;
-    color: white;
     text-align: center;
+    font-size: 1.3em;
 }
 
-.container div:nth-child(1), div:nth-child(6){
-    background-color: blue;
+header {
+    background-color: aqua;
+    grid-area: h;
 }
 
-.container div:nth-child(2), div:nth-child(7) {
-    background-color: yellow;
+#a {
+    background-color: rgb(43, 196, 63);
+    grid-area: a;
 }
 
-.container div:nth-child(3), div:nth-child(8) {
-    background-color: salmon;
+#b {
+    background-color: rgb(230, 198, 18);
+    grid-area: b;
 }
 
-.container div:nth-child(4) {
-    background-color: blueviolet;
-}
-
-.container div:nth-child(5) {
-    background-color: green;
-}
-
-.container div:nth-child(9), div:nth-child(11) {
-    background-color: rgb(148, 11, 11);
-}
-
-.container div:nth-child(10), :nth-child(12) {
-    background-color: black;
-}
-
-.container div:nth-child(13), div:nth-child(15) {
-    background-color: yellow;
-}
-
-.container div:nth-child(14) {
-    background-color: aquamarine;
-}
-
-#one {
-    grid-column: 1 / 4;
-}
-
-#two {
-    grid-row: 2 / span 3;
-}
-
-#five {
-    grid-column: 2 / -1;
-}
-
-#ten {
-    grid-column: 3 / -1;
-    grid-row: 5 / span 2;
-}
-
-
-#eleven {
-    grid-column: 1 / span 2;
-}
-
-#fifteen {
-    grid-column: 1 / span 3;
+footer {
+    background-color: rgb(216, 35, 140);
+    grid-area: f;
 }
