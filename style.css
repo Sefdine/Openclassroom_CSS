@@ -32,7 +32,6 @@ nav {
     margin: 10px 20px;
 }
 
-
 .container {
     margin-top: 120px;
     /*height: 400px;*/
@@ -69,4 +68,3 @@ nav {
 .container div:nth-child(6) {
     background-color: pink;
 }
-
