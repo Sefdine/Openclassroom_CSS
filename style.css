@@ -1,5 +1,5 @@
 body {
-    color: rgb(92, 99, 99);
+    background-color: rgb(210, 223, 223);
 }
 
 nav {
@@ -33,36 +33,38 @@ nav {
 }
 
 .container {
-    margin-top: 3em;
-    display: grid;
-    grid-template: repeat(3, 3em) / repeat(4, 1fr);
-    grid-template-areas: 
-        "h h h h"
-        'a a b b'
-        'f f f f'
-    ;
-    grid-gap: 10px;
-    grid-auto-rows: 3em;
-    text-align: center;
-    font-size: 1.3em;
+    margin-top: 120px;
+    /*height: 400px;*/
+    border: 2px solid #000;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-header {
-    background-color: aqua;
-    grid-area: h;
+.item {
+    width: 150px;
+    height: 70px;
 }
 
-#a {
-    background-color: rgb(43, 196, 63);
-    grid-area: a;
+.container div:nth-child(1) {
+    background-color: blue;
 }
 
-#b {
-    background-color: rgb(230, 198, 18);
-    grid-area: b;
+.container div:nth-child(2) {
+    background-color: green;
 }
 
-footer {
-    background-color: rgb(216, 35, 140);
-    grid-area: f;
+.container div:nth-child(3) {
+    background-color: yellow;
+}
+
+.container div:nth-child(4) {
+    background-color: rgb(57, 236, 13);
+}
+
+.container div:nth-child(5) {
+    background-color: cyan;
+}
+
+.container div:nth-child(6) {
+    background-color: pink;
 }
