@@ -2,48 +2,19 @@ body {
     background-color: rgb(210, 223, 223);
 }
 
-nav {
-    background-color: blue;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-#menu {
-    display: block;
-    width: 40%;
-    margin: 0px auto;
-    list-style-type: none;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #fff;
-}
-
-#menu a:hover {
-    color: rgb(82, 66, 66);
-}
-
-#menu li {
-    display: inline-block;
-    text-decoration: none;
-    margin: 10px 20px;
-}
-
-
 .container {
-    margin-top: 120px;
-    /*height: 400px;*/
+    margin-top: 20px;
     border: 2px solid #000;
+    height: 400px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .item {
-    width: 150px;
-    height: 70px;
+    width: 100px;
+    height: 50px;
 }
 
 .container div:nth-child(1) {
